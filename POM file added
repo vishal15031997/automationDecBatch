@@ -1,0 +1,11 @@
+//Declaration
+	
+	@FindBy(xpath="//input[@name='firstname']") private WebElement userName;
+	
+	@FindBy(xpath="//input[@name='lastname']") private WebElement lastName;
+	
+	@FindBy(xpath="//input[@name='reg_email__']") private WebElement email;
+	
+	@FindBy(xpath="(//input[@type='radio'])[2]") private WebElement gender;
+	
+	@FindBy(xpath="//select[@name='birthday_month']") private WebElement month;
